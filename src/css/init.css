@@ -1,0 +1,175 @@
+/* 用于规定版心宽度和居中 */
+.common {
+    width: 1200px;
+    margin: auto;
+}
+
+/* 给整个页面一个背景色 */
+body {
+    background-color: rgb(242, 242, 242);
+    ;
+}
+
+aside {
+    position: fixed;
+    right: 10px;
+    top: 250px;
+    width: 64px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 64px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+aside div:hover {
+    color: #4caf50;
+}
+
+/* 最顶部导航栏样式 */
+header {
+    background-color: white;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+header .header_content {
+    height: 45px;
+}
+
+/* 左边登录注册页面 */
+header .header_content .header_left {
+    float: left;
+    line-height: 45px;
+    height: 12px;
+}
+
+header .header_content .header_left a {
+    font-size: 14px;
+    color: #4caf50;
+    float: left;
+}
+
+
+header .header_content .header_left #username {
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+header .header_content .header_left #exit {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+    /* display: block; */
+    color: darkgrey;
+}
+
+header .header_content .header_right {
+    float: right;
+}
+
+header .header_content .header_right .header_right_list li {
+    float: left;
+    margin: 0 10px;
+}
+
+header .header_content .header_right .header_right_list li a {
+    font-size: 14px;
+    display: inline-block;
+    color: #666;
+    height: 45px;
+    line-height: 45px;
+}
+
+header .header_content .header_right .header_right_list li a:hover {
+    color: #4caf50;
+}
+
+/* 搜索栏 */
+#search {
+    background-color: #fff;
+    padding: 15px 0;
+    height: 110px;
+}
+
+/* 搜索栏左侧logo */
+#search .search_content .search_logo {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+#search .search_content .search_logo img {
+    width: 80px;
+    height: 80px;
+}
+
+/* 搜索栏的输入框 */
+#search .search_content #searchInput {
+    float: left;
+    height: 80px;
+    padding: 20px 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#search .search_content #searchInput #searchIpt {
+    width: 650px;
+    float: left;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #4caf50;
+    border-right: none;
+    height: 40px;
+    text-indent: 2em;
+
+}
+
+#search .search_content #searchInput #searchright {
+    float: left;
+    width: 100px;
+    height: 40px;
+}
+
+#search .search_content #searchInput #searchright #searchBtn {
+    width: 100px;
+    height: 40px;
+    background-color: #4caf50;
+    padding: 0 15px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #4caf50;
+    border-left: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#search .search_content #myShopcar {
+    float: left;
+    width: 270px;
+    height: 40px;
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #4caf50;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#search .search_content #myShopcar #listNum {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 20px;
+}

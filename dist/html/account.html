@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title><link rel="stylesheet" href="../css/base2.css"><link rel="stylesheet" href="../css/font_2373785_f8i00thvj3/iconfont.css"><link rel="stylesheet" href="../css/init.css"><link rel="stylesheet" href="../css/account.css"><script src="../js/cookie.js"></script><script src="../js/jquery/jquery.min.js"></script><script src="../js/account.js"></script></head><body><!-- 侧边导航栏 --><aside><div id="me"><span>我的</span> <span class="iconfont icon-gouwuche"></span></div><div id="shopcargo"><span>购物车</span> <span class="iconfont icon-gouwuche"></span></div><div style="border-bottom:none" id="favoritego"><span>收藏</span> <span class="iconfont icon-gouwuche"></span></div></aside><!-- 最顶部导航栏 --><header><div class="common header_content"><!-- 左侧登录注册按钮 --> <span class="header_left"><a href="./register.html" id="login">请登录/注册</a><a id="username"></a> <a href="#" id="exit">退出登录</a> </span><span class="header_right"><ul class="header_right_list"><li><a href="./sqtg.html" class="header_index">商城首页</a></li><li><a href="#" class="header_myid">我的账户</a></li><li><a href="#" class="header_myshopcar">我的购物车</a></li><li><a href="#" class="header_myorder">我的订单</a></li><li><a href="#" class="header_help">帮助中心</a></li></ul></span></div></header><!-- 搜索栏 --><div id="search"><div class="common search_content"><!-- 最左侧logo --> <a href="./sqtg.html" class="search_logo"><img src="../images/logo.png" alt="logo"> </a><!-- 中间的搜索框和搜索按钮 --> <span id="searchInput"><span><!-- 搜索框 --> <input type="text" id="searchIpt" placeholder="请输入商品关键字"><!-- 按钮 --> <span id="searchright"><button id="searchBtn">搜索</button> </span></span></span><button id="myShopcar"><span class="iconfont icon-gouwuche" style="margin-right:15px"></span> <span>我的购物车</span> <span id="listNum">0</span></button></div></div><!-- 网页内容主体--><div id="account"><div class="common account_content"><section><div id="accountLeft"><div class="allists">业务功能</div><div class="allist account_myorder">我的订单</div><div class="allist account_myfavorite">我的收藏</div><div class="allist account_myaddress">收货地址</div><div class="allists">个人信息</div><div class="allist account_myself">基本信息</div><div class="allist account_mypassword">登录密码</div></div><main><!-- 我的订单 --><!-- <div>
+                        <h2 class="title_order">我的订单</h2>
+                        <div id="orderInformation">
+                            <div class="orderInformation_list">
+                                <div class="orderInformation_lists">全部订单</div>
+                                <div class="orderInformation_lists">待发货</div>
+                                <div class="orderInformation_lists">待收货</div>
+                                <div class="orderInformation_lists">已完成</div>
+                                <div class="orderInformation_lists">已取消</div>
+                            </div>
+                            <div class="order_list">
+                                还没有订单信息快去逛逛吧
+                            </div>
+                        </div>
+
+                    </div> --><!-- 我的收藏 --><!-- <div>
+                        <h2 class="title_order">我的收藏</h2>
+                        <div id="favorite_title">
+                            还没有收藏商品哦！去逛逛吧
+                        </div>
+                        <div id="favorite">
+                            <div class="favorite_list">
+                                <div class="favorite_lists">
+                                    <div class="favorite_listsimg">
+                                        <img src="../images/logo.png" alt="">
+                                    </div>
+                                    <div class="favorite_listsmsg">
+                                        【美国红玫瑰苹果】进口Rose红玫瑰大苹果 皇后【美国红玫瑰苹果】进口Rose红玫瑰大苹果 皇后
+                                    </div>
+                                    <ul class="operatelist">
+                                        <li class="operalist_check">查看商品</li>
+                                        <li class="operalist_cancel">取消收藏</li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div> --><!-- 收货地址 --><!-- <div>
+                        <h2 class="title_order">收货地址</h2>
+                        <div id="addnew">
+                            <span id="addnewCon">
+                                <button id="addbtn">
+                                    + 新增收货地址
+                                </button>
+
+                            </span>
+                        </div>
+                        <div id="addtable">
+                            <table style="width: 100%;">
+                                <colgroup>
+                                    <col style="width: 120px;">
+                                    <col style="width: 120px;">
+                                    <col style="width: 250px;">
+                                    <col>
+                                    <col style="width: 110px;">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th><span>收货人</span></th>
+                                        <th><span>手机号</span></th>
+                                        <th><span>所在地区</span></th>
+                                        <th><span>详细地址</span></th>
+                                        <th><span>操作</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>谁是</td>
+                                        <td>谁是</td>
+                                        <td>谁是</td>
+                                        <td>谁是</td>
+                                        <td>
+                                            <span><a href="#">编辑</a></span> |
+                                            <span><a href="#">删除</a></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div> --><!-- 基本信息 --><!-- <div>
+                        <h2 class="title_order">基本信息</h2>
+                        <div id="essentialInformation">
+                            <div class="userinfo">用户信息</div>
+                        </div>
+                        <div id="essentialContent">
+                            <div class="eClist">
+                                <div class="eClist_left"><label for="ecname">用户名:</label></div>
+                                <div class="eClist_right"><input type="text" name="ecname" id="ecname" readonly></div>
+                            </div>
+                            <div class="eClist">
+                                <div class="eClist_left"><label for="ecsex">性别:</label></div>
+                                <div class="eClist_right"><input type="radio" name="ecsex" style="margin-right: 5px;">男<input type="radio" name="ecsex" style="margin-right: 5px; margin-left: 15px;">女</div>
+                            </div>
+                            <div class="eClist">
+                                <div class="eClist_left"><label for="ectel">手机号:</label></div>
+                                <div class="eClist_right"><input type="text" name="ectel" id="ectel"></div>
+                            </div>
+                            <div class="eClist">
+                                <div class="eClist_left"><label for="ecaddress">地址:</label></div>
+                                <div class="eClist_right"><input type="text" name="ecaddress" id="ecaddress"></div>
+                            </div>
+                            <div class="eClist">
+                                <div class="eClist_left"></div>
+                                <div class="eClist_right">
+                                    <button disabled>确认修改</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --><!-- 修改密码 --><!-- <div>
+                        <h2 class="title_order">修改密码</h2>
+                        <div id="changePassword">
+                            <div class="userinfo">用户信息</div>
+                        </div>
+                        <div id="changepswContent">
+                            <div class="cpClist">
+                                <div class="cpClist_left"><label for="cpcname">用户名:</label></div>
+                                <div class="cpClist_right"><input type="text" name="cpcname" id="cpcname" readonly>
+                                </div>
+                            </div>
+                            <div class="cpClist mistake">
+                                <div class="cpClist_left"><label for="oldpsw">旧密码:</label></div>
+                                <div class="cpClist_right">
+                                    <input type="text" name="oldpsw" id="oldpsw">
+                                    
+                                </div>
+                            </div>
+                            <div class="cpClist" style="height: 88px;">
+                                <div class="cpClist_left"><label for="newpsw">新密码:</label></div>
+                                <div class="cpClist_right"><input type="text" name="newpsw" id="newpsw">
+                                <p>6到18位数字或者字母组成</p>
+                            <span id=falsenewpsw>密码格式错误!</span>
+                        </div>
+                            </div>
+                            <div class="cpClist mistake">
+                                <div class="cpClist_left"><label for="pswsure">确认密码:</label></div>
+                                <div class="cpClist_right"><input type="text" name="pswsure" id="pswsure">
+                                <span  id=falsepswsure>与上一次输入密码不一致!</span></div>
+                            </div>
+                            <div class="cpClist">
+                                <div class="cpClist_left"></div>
+                                <div class="cpClist_right">
+                                    <button>修改密码</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --></main></section></div></div><!-- 点击新增地址时弹出的页面 --><div id="newAdd"><div id="newaddCon"><div class="newAdd_head"><span class="newAdd_headmsg">创建地址</span> <button class="newAdd_headexit">X</button></div><div class="newAdd_main"><!-- 收货人 --><div class="newAdd_mainipt consigneeInput"><div class="main_left"><label for="consignee">收货人:</label></div><div class="main_right"><input type="text" name="consignee" id="consigneeipt"></div></div><!-- 手机号码 --><div class="newAdd_mainipt telInput"><div class="main_left"><label for="telIpt">手机号:</label></div><div class="main_right"><input type="text" name="telIpt" id="telIpt"></div></div><!-- 所在地区 --><div class="newAdd_mainipt areaInput"><div class="main_left"><label for="areaIpt">所在地区:</label></div><div class="main_right"><input type="text" name="areaIpt" readonly="readonly" id="areaIpt"></div></div><!-- 详细地址 --><div class="newAdd_mainipt detailaddInput"><div class="main_left"><label for="detailaddIpt">详细地址:</label></div><div class="main_right"><textarea rows="2" name="detailaddIpt" id="detailaddIpt" style="outline:0"></textarea></div></div></div><div class="newAdd_foot"><button id="footCancel">取消</button> <button id="footSubmit">提交</button></div></div></div><div></div><!-- 地址栏的下拉菜单 --><div id="address_lists"><div id="address_list"><ul class="address_menu address_levelone"></ul><ul class="address_menu address_leveltwo"></ul><ul class="address_menu address_levelthree"></ul></div></div></body></html>

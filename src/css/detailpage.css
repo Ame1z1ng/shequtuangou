@@ -1,0 +1,109 @@
+#contain{
+    margin-top: 50px;
+}
+#contain .contain_content{
+    background-color: #fff;
+    display: flex; 
+}
+#contain .contain_content #contain_left{
+    width: 470px;
+    padding: 15px;
+    
+}
+#contain .contain_content #contain_left img{
+    width: 440px;
+    height: 360px;
+    vertical-align: top;
+    border: 5px solid skyblue;
+
+}
+#contain .contain_content #contain_left span {
+    text-align: center;
+    display: block;
+    width: 130px;
+    color: #999999;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+    border: 3px solid #999999;
+}
+
+#contain .contain_content #contain_right{
+    width: 730px;
+    padding: 20px;
+}
+#contain .contain_content #contain_right #goods_name{
+    font-size: 22px;
+    width: 690px;
+}
+#contain .contain_content #contain_right #goods_msg{
+    width: 690px;
+    background-color: #e9e9e9;
+    margin-top: 15px;
+}
+#contain .contain_content #contain_right #goods_msg #mp{
+    height: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}
+#contain .contain_content #contain_right #goods_msg #mp del{
+    margin-left: 30px;
+}
+#contain .contain_content #contain_right #goods_msg #price{
+    font-size: 13px;
+    height: 45px;
+    line-height: 45px;
+}
+#contain .contain_content #contain_right #goods_msg #price span{
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 20px;
+    color: #4caf50;
+}
+#contain .contain_content #contain_right #goods_msg #reminder{
+    height: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+}
+#contain .contain_content #contain_right #goods_msg #reminder span{
+    color: #b5621b;
+    margin-left: 30px;
+}
+#contain .contain_content #contain_right #goods_msg #freeship{
+    height: 55px;
+    line-height: 55px;
+    color: red;
+    font-size: 35px;
+
+}
+#contain .contain_content #contain_right #shopcarnum{
+    height: 45px;
+    width: 270px;
+    justify-content: space-between;
+    margin: 20px 0;
+    display: flex;
+}
+
+#contain .contain_content #contain_right #shopcarnum #shopcarnum_left input{
+    width: 88px;
+    height: 45px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 19px;
+    line-height: 45px;
+    color: #999999;
+}
+#contain .contain_content #contain_right #shopcarnum #shopcarnum_right button{
+    width: 150px;
+    height: 45px;
+    border: 1px solid #d9d9d9;
+    color: #fff;
+    background-color: #4caf50;
+    cursor: pointer;
+}
+

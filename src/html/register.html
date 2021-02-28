@@ -1,0 +1,94 @@
+<!-- 我是登录页面 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base2.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/cookie.js"></script>
+    <script src="../js/jquery/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <span id="tips">为了您的用户体验，请登陆</span>
+        <a href='#' id="backindex">回到首页</a>
+        <div id="content">
+            <div id="login">
+                <h2>帐号登录</h2>
+                <div class="login_form">
+
+                    <input type="text" name="username" placeholder="用户名" id="username">
+                    <span id="falseUsn">用户名不能为空</span>
+                    <input type="text" name="password" placeholder="密码" id="password">
+                    <span id="falsePsw">密码不能为空</span><br>
+                    <input type="checkbox" id="ckb"><span id="agreement">我已阅读并且同意<a href="#">《用户协议》</a>和<a
+                            href="#">《隐私政策》</a></span>
+                    <button id="btn" disabled>登录</button>
+                    <a href="#" style="display:block;margin-top: 20px;margin-right: 25px;" id="zhuce">免费注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 这个是注册页面，默认隐藏，当点击免费注册时才会出现 -->
+        <!-- 最外层的这个是遮罩层 -->
+        <div id="signin">
+            <!-- 这个是居中显示的内容 -->
+            <div id="signinArea">
+                <h2>欢迎免费注册</h2>
+                <div id="signinAreaContent">
+                    <!-- 用户名区域 -->
+                    <!-- 用户名输入框的id为usnipt -->
+                    <div class="signinArea_ipt">
+                        <label for="usnipt">用户名: </label>
+                        <div id="usnContent">
+                            <input type="text" id="usnipt" name="usnipt"
+                                placeholder="用户名由2-11位，字母或汉字开头组成">
+                            <span id="usntip">用户名格式错误</span>
+                        </div>
+
+                    </div>
+                    <!-- 密码区域 -->
+                    <div class="signinArea_ipt">
+                        <label for="pswipt">密码: </label>
+                        <div id="pswContent">
+                            <input type="text" id="pswipt" name="pswipt"
+                                placeholder="密码由6-18位，字母加数字组成">
+                            <span id="pswtip">密码格式错误</span>
+                        </div>
+                    </div>
+                    <!-- 确认密码区域 -->
+                    <div class="signinArea_ipt">
+                        <label for="agrpswipt">确认密码: </label>
+                        <div id="agrpswContent">
+                            <input type="text" id="agrpswipt" name="agrpswipt"
+                                placeholder="请确认密码">
+                            <span id="agrpswtip">与上一次输入密码不一致，请确认</span>
+                        </div>
+                    </div>
+                    <!-- 服务协议区域 -->
+                    <div class="signinArea_ipt">
+                        <label for="ckbipt">服务协议: </label>
+                        <div id="ckbContent">
+                            <input type="checkbox" id="ckbipt" name="ckbipt">我已阅读并同意<a
+                                href="#">社区团购服务协议</a>
+                        </div>
+                    </div>
+
+
+                </div><!-- 注册面板最底层的两个按钮 -->
+                <div id="signinAreaFooter">
+                    <!-- 点击去登录的时候这个注册页面会消失 -->
+                    <!-- 注册按钮默认不能点击，当输入框信息验证正则通过才能点击 -->
+                    <button id="signinAreaFooter_register" disabled>立即注册</button>
+                    <button id="signinAreaFooter_login">去登录</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
